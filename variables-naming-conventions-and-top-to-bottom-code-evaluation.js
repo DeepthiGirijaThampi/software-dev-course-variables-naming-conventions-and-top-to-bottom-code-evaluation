@@ -24,9 +24,12 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+//Meaningful variable names are important because they make code easier to read and maintain, especially when working in teams.
 
-console.log(d);
+let customerName = "Alice";
+let count = 5;
+let price = 20;
+let totalCost = count * price;
+let summary = customerName + " bought " + count + " items for $" + totalCost + ".";
+
+console.log(summary);
